@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.nagarro.entity_class.Authors;
-import com.nagarro.entity_class.Books;
+import com.nagarro.assignment09.entity_class.Authors;
+import com.nagarro.assignment09.entity_class.Books;
 
 @SpringBootApplication
 @EntityScan(basePackageClasses = {Books.class,Authors.class})

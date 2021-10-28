@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.nagarro.assignment09.entity_class.Authors;
+import com.nagarro.assignment09.entity_class.Books;
 import com.nagarro.assignment09.repository.AuthorRepository;
-import com.nagarro.entity_class.Authors;
-import com.nagarro.entity_class.Books;
 
 @Service
 @RestController

@@ -1,4 +1,4 @@
-package com.nagarro.entity_class;
+package com.nagarro.assignment09.entity_class;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
