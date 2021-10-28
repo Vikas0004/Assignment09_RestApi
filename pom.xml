@@ -11,6 +11,7 @@
 	<groupId>com.assignment09</groupId>
 	<artifactId>Assignment09_RestApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Assignment09_RestApi</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
