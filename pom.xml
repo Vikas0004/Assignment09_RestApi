@@ -11,8 +11,8 @@
 	<groupId>com.nagarro.assignment09</groupId>
 	<artifactId>Assignment09_RestApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>Assignment09_RestApi</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -52,7 +52,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>SpringBootApp</finalName>
+		<finalName>Assignment09_RestApi</finalName>
 	</build>
 
 </project>
