@@ -8,7 +8,7 @@
 		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.nagarro.assignment09</groupId>
+	<groupId>com.assignment09</groupId>
 	<artifactId>Assignment09_RestApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Assignment09_RestApi</name>
@@ -42,17 +42,34 @@
 		    <artifactId>jackson-dataformat-xml</artifactId>
 		    <version>2.12.5</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
+			<scope>compile</scope>
+		</dependency>
 				
 	</dependencies>
 
 	<build>
+		<finalName>Assignment09_RestApi</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>Assignment09_RestApi</finalName>
 	</build>
 
 </project>
