@@ -1,11 +1,18 @@
 pipeline {
     agent any
     stages {
-        stage('Mvn Build'){
+        stage("Build"){
                 steps{
-                    sh 'mvn install'
+                    sh "mvn -version"
+                    sh "mvn clean install"
                 }
             }
        
+    }
+    
+    post {
+        always{
+            cleanWs()
+        }
     }
 }
